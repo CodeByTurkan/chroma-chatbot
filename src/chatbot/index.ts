@@ -46,7 +46,7 @@ async function populateCollection() {
 }
 
 async function askQuestion() {
-  const question = "what is Alexandra fatehr name";
+  const question = "what is Alexandra fatehr";
   const collection = await getAndCreateCollection();
   const result = await collection.query({
     queryTexts: [question],
